@@ -137,3 +137,51 @@ h1, h2, h3 {
     margin-bottom: 25px;
     color: #252432;
 }
+
+/* Productive Users Section */
+.productive-users {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 140px 0;
+}
+.box{
+    max-width: 1140px;
+    height: 300px;
+    background-color: #E6EDF9; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 50px 140px;
+    border-radius: 25px;
+}
+
+.productive-users h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #252432;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.stat-item {
+    flex: 1;
+    min-width: 200px;
+    padding: 0px;
+}
+
+.stat-item h3 {
+    font-size: 48px;
+    margin-bottom: 10px;
+    color: #4E47FF;
+}
+
+.stat-item p {
+    font-size: 20px;
+    color: #72737F;
+}
