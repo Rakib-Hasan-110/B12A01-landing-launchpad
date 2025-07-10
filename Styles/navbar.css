@@ -100,3 +100,40 @@ h1, h2, h3 {
     color: #252432;
     margin-bottom: 30px;
 }
+
+/* ===== Action Section ===== */
+.action {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.action .container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.action-content {
+    flex: 1;
+}
+
+.action-image {
+    flex: 1;
+    text-align: center;
+}
+
+.action-image img {
+    max-width: 100%;
+    border-radius: 45px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.action h2 {
+    font-size: 40px;
+    color: #252432;
+}
+
+.action p {
+    margin-bottom: 25px;
+    color: #252432;
+}
