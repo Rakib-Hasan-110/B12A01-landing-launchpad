@@ -77,3 +77,26 @@ h1, h2, h3 {
     color: #4E47FF;
     text-decoration: none;
 }
+
+/* ===== Banner Section ===== */
+.banner {
+    background-image: url('/Assets/Hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+
+.banner-content {
+    width: 100%;
+}
+
+
+.banner h1 {
+    font-size: 65px;
+    color: #252432;
+    margin-bottom: 30px;
+}
