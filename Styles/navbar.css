@@ -279,31 +279,31 @@ h1, h2, h3 {
     margin: 0;
 }
 
-/*  Newsletter Section  */
-.newsletter {
+/*  Touch Section  */
+.Touch {
     background-color: #f8f9fa;
     color: #333;
 }
 
-.newsletter .container {
+.Touch .container {
     display: flex;
     gap: 50px;
 }
 
-.newsletter-content {
+.Touch-content {
     flex: 1;
 }
 
-.newsletter-form {
+.Touch-form {
     flex: 1;
 }
 
-.newsletter h2 {
+.Touch h2 {
     display: flex;
     align-items: center;
-    margin: 50px;
+    margin: 150px 0px;
     gap: auto;
-    font-size: 100px;
+    font-size: 90px;
     color: #000000;
     justify-content: center;
 }
