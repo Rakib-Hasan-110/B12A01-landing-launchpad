@@ -157,16 +157,17 @@ h1, h2, h3 {
 }
 
 .productive-users h2 {
-    font-size: 40px;
+    font-size: 35px;
     margin-bottom: 10px;
     color: #252432;
+    padding: 10px;
 }
 
 .stats {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 50px;
 }
 
 .stat-item {
@@ -278,17 +279,76 @@ h1, h2, h3 {
     margin: 0;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    .review-container {
-        flex-direction: column;
-    }
-    
-    .review-card {
-        min-width: 100%;
-    }
-    
-    .reviews h2 {
-        font-size: 28px;
-    }
+/*  Newsletter Section  */
+.newsletter {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.newsletter .container {
+    display: flex;
+    gap: 50px;
+}
+
+.newsletter-content {
+    flex: 1;
+}
+
+.newsletter-form {
+    flex: 1;
+}
+
+.newsletter h2 {
+    display: flex;
+    align-items: center;
+    margin: 50px;
+    gap: auto;
+    font-size: 100px;
+    color: #000000;
+    justify-content: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.form-group textarea {
+    height: 145px;
+    resize: vertical;
+}
+
+.form-btn {
+    display: inline-block;
+    width: 550px;
+    padding: 20px 30px;
+    background-color: #4361ee;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.form-btn:hover {
+    background-color: #3a56d4;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
