@@ -196,12 +196,6 @@ h1, h2, h3 {
     font-family: Arial, sans-serif;
 }
 
-.container {
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
 .reviews h2 {
     font-size: 45px;
     color: #252432;
